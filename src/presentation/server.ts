@@ -30,7 +30,7 @@ export class Server {
             return;
         });
 
-        this.app.listen(4000, () => {
+        this.app.listen(this.port, () => {
             console.log(`Server running on port ${ this.port }`);
         });
 
